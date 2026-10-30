@@ -1,5 +1,4 @@
 # Networkwalks-B084-Week1-Cybersecurity-lab-setup
-Cybersecurity Lab setup
 <div align="center">
 
 # 🔐 Cybersecurity Lab Environment Setup
@@ -92,7 +91,9 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+# Screenshot
+
+![](Screenshot-1-Network-Opening.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -119,7 +120,7 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+![](Screenshot-2-Kali-Linux.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -141,7 +142,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](Screenshot-3-Kali-Network-Setting.png)
 
 ---
 
@@ -375,6 +376,10 @@ The future VM range is a planning range, not a reservation. Before assigning add
           +---- Lab traffic ---+
 ```
 
+# Screenshot
+
+![](Screenshot-4-Kali-Android-x86.png)
+
 ---
 
 # ✅ Part 5: Verification Checklist
@@ -482,7 +487,7 @@ This laboratory is intended strictly for education purposes only.
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
-- **Android-x86 9.0 ISO: **[https://www.android-x86.org/download](https://www.android-x86.org/download)
+- **Android-x86 9.0 ISO:** [https://www.android-x86.org/download](https://www.android-x86.org/download)
 
 ---
 
